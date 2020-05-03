@@ -44,6 +44,10 @@ router.get('/data/humidity.js',function(req,res){
       res.sendFile(path.join(__dirname+'/data/humidity.js'));
 });
 
+router.get('/data/moisture.js',function(req,res){
+      res.sendFile(path.join(__dirname+'/data/moisture.js'));
+});
+
 router.get('/data/photo.jpg',function(req,res){
       res.sendFile(path.join(__dirname+'/data/photo.jpg'));
 });
